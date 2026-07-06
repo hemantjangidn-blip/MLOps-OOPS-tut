@@ -19,6 +19,18 @@ end to end project(chatbook class)
     > getter and setter
     > static methods
 
-    > inheritance
-    
+Inheritance
+    › Inheritance code example
+You, 3 hourI ago • Uncommitted changes
+    › Why inheritance is needed? (code reuseability, parent has no access to child class)
+    › what gets inherited? - Constructor, Non private attributes, Non private methods
+    › constructor overloading & method overloading
+    > Super keyword(can be used only inside class, can not access variables/attributes, used only inside child class)
+    › Types of inheritance - 
+            1. Single Inheritance | 
+            2. Multilevel | 
+            3. Hierarchical | 
+            4. Multiple <Diamond Problem> | 
+            5. Hybrid
+
 
