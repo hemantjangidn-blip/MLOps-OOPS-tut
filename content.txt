@@ -10,3 +10,15 @@ advantages of OOPS:
     > easy to colab
 
 end to end project(chatbook class)
+    > function vs methods
+    > magic method/dunder method
+    > self
+    > you can create attributes outside of the class aswell
+
+    > encapsulation
+    > getter and setter
+    > static methods
+
+    > inheritance
+    
+
