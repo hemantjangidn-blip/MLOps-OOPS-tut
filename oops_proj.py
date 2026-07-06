@@ -49,4 +49,24 @@ class chatbook():
         print("\n")
         self.menu() 
         
+    def write_post(self):
+        if self.loggedin ==True:
+            txt = input("Write your post here ->")
+            print(f"Your post is published successfully: {txt}")
+        else:
+            print("Please login first to write a post...")
+        
+        print("\n")
+        self.menu()     
+        
+    def message_friend(self):
+        if self.loggedin == True:
+            txt = input("Write your message here ->")
+            frnd = input("Enter your friend's name ->")
+            print(f"Your message is sent successfully to {frnd}: {txt}")
+        else:
+            print("Please login first to message a friend...")
+        print("\n")
+        self.menu()
+    
 obj = chatbook()
