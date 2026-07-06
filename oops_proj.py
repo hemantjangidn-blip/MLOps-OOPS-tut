@@ -25,5 +25,28 @@ class chatbook():
         else:
             print("Exiting...")
             exit()
+            
+    def signup(self):
+        email = input("Enter you email ->")
+        pwd   = input("Set up your password ->")
+        self.username = email
+        self.password = pwd
+        print(f"Account created successfully for {self.username}")
+        print("\n")
+        self.menu()
+    
+    def signin(self):
+        if self.username == '' and self.password == '':
+            print("Please signup first to create an account, by pressing 1 in the menu...")
+        else:
+            email = input("Enter your email ->")
+            pwd =  input("Enter your password ->")
+            if email == self.username and pwd == self.password:
+                print(f"Welcome back {self.username}, you are logged in successfully")
+                self.loggedin = True
+            else:
+                print("Invalid credentials, please try again")
+        print("\n")
+        self.menu() 
         
 obj = chatbook()
